@@ -5,8 +5,8 @@ import { FiRefreshCcw } from "react-icons/fi";
 
 const App = () => {
   const [options, setOptions] = useState({
-    uppercase: true,
-    lowercase: true,
+    uppercase: false,
+    lowercase: false,
     numbers: true,
     symbols: true,
   });
