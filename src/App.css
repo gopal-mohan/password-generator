@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+  background-color: #ffdab9;
+}
+h1 {
+  text-align: center;
+}
+.password-wrapper {
+  width: 500px;
+  height: 500px;
+  background: bisque;
+  border-radius: 20px;
+}
+.password-top {
+  padding-inline: 20px;
+  padding-block: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.password {
+  text-wrap: nowrap;
+}
+.password-bottom {
+  display: flex;
+  padding-inline: 20px;
+  width: 100%;
+  flex-direction: column;
+}
+.length-wrapper {
+  width: 100%;
+}
+.length-text-container {
+  padding-inline: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+.options-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 30px;
+  padding-inline: 10px;
+}
+.gc {
+  accent-color: black;
+}
+.icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.cb {
+  width: 20px;
+  height: 20px;
+}
+label {
+  padding-left: 10px;
+}
